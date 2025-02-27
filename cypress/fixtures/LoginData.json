@@ -1,0 +1,10 @@
+[
+    {
+      "email": "invalid@example.com",
+      "password": "wrongpassword"
+    },
+    {
+        "email": "Test_10@gmail.com",
+        "password": "Test"
+    }
+]

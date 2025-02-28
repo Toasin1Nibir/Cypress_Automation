@@ -12,12 +12,12 @@ describe('Verify Subscription in Cart page', () => {
 
      
         cy.get("a[href='/product_details/6']").click()
-      //  cy.get("//input[@id='quantity']").clear()
+ 
         cy.xpath("//input[@id='quantity']").clear().type("4")
         cy.xpath("//button[normalize-space()='Add to cart']").click()
         cy.xpath("//u[normalize-space()='View Cart']").click()
         cy.xpath("//button[@class='disabled' and text()='4']").should('be.visible')
-       // cy.get(".disabled").should('have.value', '4').and('be.disabled');
+ 
        
       
        
